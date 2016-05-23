@@ -37,7 +37,7 @@ $(function() {
 	// Variable initialization
 
 	var form = $('form.login');
-	var secretTextBox = form.find('input[type=text]');
+	var secretTextBox = form.find('input[type=password]');
 	var presentation = $('.reveal');
 
 	var key = "", animationTimeout;
